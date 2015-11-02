@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarController</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">广外创新实验室智能小车控制器</string>
+    <string name="go">前进</string>
+    <string name="left">左转</string>
+    <string name="right">右转</string>
+    <string name="back">后退</string>
+    <string name="bt_stop">停止</string>
+    <string name="show">信息</string>
+</resources>
