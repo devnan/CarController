@@ -39,6 +39,8 @@ public class Server extends Thread {
 			Message message = new Message();
 			message.what = Constant.CONNECT;
 			MainActivity.mHandler.sendMessage(message);
+			
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			Log.d("MainActivity", "连接小车失败");
