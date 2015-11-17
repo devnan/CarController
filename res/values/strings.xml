@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CarController</string>
+    <string name="app_name">智能小车控制器</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title">广外创新实验室智能小车控制器</string>
+    <string name="title">智能小车控制器 @广外创实</string>
     <string name="go">前进</string>
     <string name="left">左转</string>
     <string name="right">右转</string>
     <string name="back">后退</string>
-    <string name="bt_stop">停止</string>
+    <string name="stop">停止</string>
     <string name="show">信息</string>
+
+    <string-array name="toast_tips">
+        <item>点我作甚</item>
+        <item>别闹了好吗</item>
+        <item>别玩我了，我可要生气了</item>
+        <item>您就饶了我吧</item>
+        <item>好好好,不管了，出事你负责</item>
+        <item>不好好开车，小心车祸</item>
+        <item>真的没有bug，您就别试了╥﹏╥</item>
+    </string-array>
+
 </resources>
