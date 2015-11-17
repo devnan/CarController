@@ -41,6 +41,7 @@ public class CarService extends Thread {
 				if (msg != "") {
 					getAngleStr(msg);
 				}
+				
 				Message message = new Message();
 				message.what = Constant.DATA;
 				handler.sendMessage(message);

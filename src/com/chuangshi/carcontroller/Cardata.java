@@ -8,12 +8,12 @@ package com.chuangshi.carcontroller;
  */
 public class Cardata {
 
-	private String angle_x;
-	private String angle_y;
-	private String angle_z;
-	private String dis;
-	private String move;
-	private int speed;
+	private String angle_x;//x角度
+	private String angle_y;//y角度
+	private String angle_z;//z角度
+	private String dis;//小车离障碍物距离
+	private String move;//前方有无移动物体
+	private int speed;//小车速度档位
 	
 	public Cardata(String angle_x, String angle_y, String angle_z, String dis,
 			String move, int speed) {

@@ -62,6 +62,7 @@ public class MainActivity extends Activity implements OnClickListener {
 						.show();
 				Log.d("MainActivity", "连接失败");
 				break;
+			//收到返回的数据
 			case Constant.DATA:
 				tv_dis.setText(mCardata.getDis());
 				tv_x.setText(mCardata.getAngle_x());
@@ -87,7 +88,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		mCardata = new Cardata();
 		connectThread = new ConnectThread(mHandler);
 		connectThread.start();
-		initView();
+		initView();//初始化一个对话框
 
 	}
 
@@ -175,7 +176,8 @@ public class MainActivity extends Activity implements OnClickListener {
 
 				break;
 			case R.id.control_ly:
-
+				
+				//设置随机数
 				int index = (int) (Math.random() * (toast_array.length - 1));
 				Toast.makeText(MainActivity.this, toast_array[index],
 						Toast.LENGTH_SHORT).show();

@@ -38,7 +38,7 @@ public class ConnectThread extends Thread {
 			Log.d("MainActivity", "成功连接小车");
 			Message message = new Message();
 			message.what = Constant.CONNECT;
-			mHandler.sendMessage(message);
+			mHandler.sendMessage(message);//发送消息
 
 		} catch (IOException e) {
 
