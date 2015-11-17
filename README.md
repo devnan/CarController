@@ -8,3 +8,5 @@ wifi小车控制器v1
 可以发送对应指令控制小车动作
 
 并且实时接收显示小车角度等传感器返回来的数据
+
+![ui](https://github.com/ALLENnan/CarController/blob/master/res/drawable-hdpi/ui.png)
